@@ -1,0 +1,146 @@
+body {
+  margin: auto;
+  padding: auto;
+  font-family: cursive;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+hr.bio-list {
+  border: 2px #17c465 solid !important;
+}
+.btn-profile {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: #ffffff !important;
+  color: #222 !important;
+  border-radius: 2px;
+  width: 300px;
+}
+.btn-profile:hover {
+  background: #333333 !important;
+  color: #ffffff !important;
+}
+.tagsinput {
+  border: 0px #ddd solid !important;
+  margin-left: -10px;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  background: #fff;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #17c465;
+  padding: 5px 5px 0 5px;
+  border: 1px solid #e6e6e6;
+  border-radius: 2px;
+}
+
+.tagsinput .tag {
+  position: relative;
+  background: #17c465;
+  display: block;
+  max-width: 100%;
+  word-wrap: break-word;
+  color: #fff;
+  padding: 5px 30px 5px 5px;
+  border-radius: 2px;
+  margin: 0 5px 5px 0;
+}
+.box-left {
+  background-color: #17c465;
+  height: 100vh !important;
+}
+.box-left img {
+  margin-top: 50px;
+}
+.box-right {
+  background: #ffffff;
+  height: 100vh !important;
+}
+.avatar img {
+  border: 5px #ffffff solid;
+  margin-top: 100px;
+}
+.info-box {
+  padding: 0px 100px 50px 100px !important;
+}
+.toplink {
+  text-align: right !important;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.toplink a {
+  color: #888 !important;
+}
+
+b {
+  color: #fab700;
+  font-weight: bold;
+}
+
+a,
+a:focus,
+a:hover {
+  text-decoration: none;
+  outline: 0;
+}
+
+.social-handle {
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 0 5px 0 0;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .logo {
+    padding-top: 0px;
+  }
+  .avatar img {
+    border: 5px #ffffff solid;
+    margin-top: 0px;
+    width: 100% !important;
+    border-radius: 1px;
+    background-size: contain !important;
+  }
+  .toplink {
+    text-align: center !important;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px #ddd solid;
+  }
+  .toplink a {
+    color: #888 !important;
+  }
+  .box-left {
+    background-color: #17c465;
+    height: 100% !important;
+  }
+  .box-right {
+    height: 100% !important;
+  }
+  .info-box {
+    padding: 0px 20px 50px 20px !important;
+  }
+}
