@@ -10,7 +10,7 @@ body {
   color: white;
 }
 
-.dark-mode .btn-profile {
+.dark-mode .btn-profile .moon {
   background: black;
   color: white !important;
 }
