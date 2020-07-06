@@ -10,9 +10,15 @@ body {
   color: white;
 }
 
-.dark-mode .btn-profile .moon {
+.dark-mode .btn-profile {
   background: black;
   color: white !important;
+}
+
+.dark-mode .moon {    
+    background: transparent;
+    border: none;
+    color: white;
 }
 
 .moon {    
