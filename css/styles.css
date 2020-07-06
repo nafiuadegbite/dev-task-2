@@ -143,3 +143,7 @@ a:hover {
     padding: 0px 20px 50px 20px !important;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+    /* all your styles for dark mode here */
+}
