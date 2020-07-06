@@ -72,7 +72,7 @@ hr.bio-list {
   height: 100vh !important;
 }
 .avatar img {
-  border: 5px solid;
+  border: 5px #ffffff solid;
   margin-top: 100px;
 }
 .info-box {
