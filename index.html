@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <button id="theme-toggle">Switch to dark mode</button>
+    <button onclick="darkMode()">Switch to dark mode</button>
     <div class="row no-gutter">
         <div class="col-md-4 box-left">
             <center>
@@ -91,23 +91,10 @@
         </div>
     </div>
 <script type="text/javascript">
-document.addEventListener('DOMContentLoaded', () => {
-
-    const themeStylesheet = document.getElementById('theme');
-    const themeToggle = document.getElementById('theme-toggle');
-    themeToggle.addEventListener('click', () => {
-        // if it's light -> go dark
-        if(themeStylesheet.href.includes('light')){
-            themeStylesheet.href = 'dark-theme.css';
-            themeToggle.innerText = 'Switch to light mode';
-        } else {
-            // if it's dark -> go light
-            themeStylesheet.href = 'light-theme.css';
-            themeToggle.innerText = 'Switch to dark mode';
-
-        }
-    })
-})
+function darkMode() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
 </script>
 </body>
 
