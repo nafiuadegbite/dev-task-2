@@ -27,6 +27,7 @@ hr.bio-list {
   padding-bottom: 15px;
   color: #222 !important;
   border-radius: 2px;
+  background: #ffffff;
   width: 300px;
 }
 .btn-profile:hover {
@@ -72,7 +73,7 @@ hr.bio-list {
   height: 100vh !important;
 }
 .avatar img {
-  border: 5px #ffffff solid;
+  border: 5px solid;
   margin-top: 100px;
 }
 .info-box {
