@@ -11,6 +11,11 @@ body {
   color: white;
 }
 
+.dark-mode .btn-profile {
+  background: black;
+  color: white;
+}
+
 h1 {
   font-size: 30px;
   font-weight: bold;
